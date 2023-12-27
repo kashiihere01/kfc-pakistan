@@ -620,6 +620,10 @@ margin-left: 18px;
  position: absolute;
  top: 127%;
 }
+#margin{
+  font-size: 30px;
+  margin-left: 340px;
+}
 .mid3{
   margin-left: 18px;
    position: absolute;
