@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>FeedBack</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css.map">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- slider css -->
+    <link rel="stylesheet" href="../css/slick.css">
+    <link rel="stylesheet" href="../css/slick-theme.css">
+    <link rel="stylesheet" href="../css/fonts/slick.svg">
+    <!-- icon css -->
+    <link rel="stylesheet" href="../icon/css/all.css">
+    <!-- icon js -->
+    <script src="../icon/js/all.js"></script>
+    <style>
+
+
+.form {
+ 
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ border-radius: 0.5rem;
+}
+
+.title {
+ color: wheat;
+ margin: 3rem 0;
+ font-size: 2rem;
+}
+
+.input1 {
+ margin: 0.5rem 0;
+ padding: 1rem 0.5rem;
+ width: 20rem;
+ background-color: inherit;
+ color: wheat;
+ border: none;
+ outline: none;
+}
+.input2 {
+ margin: 0.5rem 0;
+ padding: 1rem 0.5rem;
+ width: 10rem;
+ background-color: inherit;
+ color: wheat;
+ border: none;
+ outline: none;
+}
+
+.username {
+ border-bottom: 1px solid wheat;
+ transition: all 400ms;
+}
+.username option{
+ background-color: #090808;
+ border: none;
+    
+}
+.username:hover {
+ background-color: #262525;
+ border: none;
+ border-radius: 0.5rem;
+}
+
+
+
+
+
+
+    </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg ">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+<!-------------------------------------------- start offcanvas ----------------------------------->
+
+
+<a class=" nav2" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+  <button class="menu__icon" >
+       <span></span>
+       <span></span>
+       <span></span>
+     </button></a>
+ 
+     <button class="navbar-toggler" type="button" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand " href="#"> <img src="../images/main-img/logo.png" alt="">
+     </a>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    
+        <li class="nav-item">
+          <a class="nav-link" href="#"><button class="btn btn-outline-danger text-white" id="btn">
+    <span ><img src="../images/main-img/btn-img.png" alt="" height="30px">Delivery</span>
+          </button></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><button class="btn btn-outline-danger" id="btn2">
+    <span ><img src="../images/main-img/btn-img2.png" alt="" height="30px" >Pickup</span>
+          </button></a>
+        </li>
+     
+      </ul>
+    
+    
+    </div>
+
+ 
+ <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+   <div class="offcanvas-header">
+    
+    <button class="btn btn-danger" id="btn3">Login</button>
+     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+   </div>
+   <div class="offcanvas-body">
+<div class="mid justify-content-center d-grid">
+  <div class="light-button">
+    <button class="bt">
+        <div class="light-holder">
+            <div class="dot"></div>
+            <div class="light"></div>
+        </div>
+        <div class="button-holder">
+            <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20.317 4.3698a19.7913 19.7913 0 00-4.8851-1.5152.0741.0741 0 00-.0785.0371c-.211.3753-.4447.8648-.6083 1.2495-1.8447-.2762-3.68-.2762-5.4868 0-.1636-.3933-.4058-.8742-.6177-1.2495a.077.077 0 00-.0785-.037 19.7363 19.7363 0 00-4.8852 1.515.0699.0699 0 00-.0321.0277C.5334 9.0458-.319 13.5799.0992 18.0578a.0824.0824 0 00.0312.0561c2.0528 1.5076 4.0413 2.4228 5.9929 3.0294a.0777.0777 0 00.0842-.0276c.4616-.6304.8731-1.2952 1.226-1.9942a.076.076 0 00-.0416-.1057c-.6528-.2476-1.2743-.5495-1.8722-.8923a.077.077 0 01-.0076-.1277c.1258-.0943.2517-.1923.3718-.2914a.0743.0743 0 01.0776-.0105c3.9278 1.7933 8.18 1.7933 12.0614 0a.0739.0739 0 01.0785.0095c.1202.099.246.1981.3728.2924a.077.077 0 01-.0066.1276 12.2986 12.2986 0 01-1.873.8914.0766.0766 0 00-.0407.1067c.3604.698.7719 1.3628 1.225 1.9932a.076.076 0 00.0842.0286c1.961-.6067 3.9495-1.5219 6.0023-3.0294a.077.077 0 00.0313-.0552c.5004-5.177-.8382-9.6739-3.5485-13.6604a.061.061 0 00-.0312-.0286zM8.02 15.3312c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9555-2.4189 2.157-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.9555 2.4189-2.1569 2.4189zm7.9748 0c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9554-2.4189 2.1569-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.946 2.4189-2.1568 2.4189Z"></path>
+            </svg>
+            <p>KFC</p>
+        </div>
+    </button>
+</div>
+</div>
+
+
+   <div class="list">
+    <ul>
+      <li>
+       <a href="" id="hov1"> <i class="fa-solid fa-location-dot" id="hov"></i> Store Locator</a>
+      </li>
+      <li>
+  <a href="" ><i class="fa-solid fa-magnifying-glass-location" id="hov"></i>  Track Order</a>
+      </li>
+      <li>
+       <a href=""> <i class="fa-solid fa-grip-lines" id="hov"></i> Explore Menu</a>
+      </li>
+     </ul>
+   </div>
+
+
+  
+   <hr>
+   <div class="list">
+    <ul>
+      <li ><a href="./aboutus.html">About Us</a></li>
+      <li><a href="./feedback.html">FeedBack</a></li>
+      <li><a href="./terms-condition.html">Term & Conditions</a></li>
+      <li><a href="./privacy.html">Privacy Policy</a></li>
+      <li><a href="./contact-us.html">Contact Us</a></li>
+      <li><a href="./mitaobhok.html">Mitao Bhook</a></li>
+      <li id="tes"><a href="./mitaobhokscholarship.html">Mitao Bhook - Schlorship</a></li>
+      <li><a href="./careers">Careers</a></li>
+    </ul>
+   </div>
+     </div>
+   
+   </div>
+  
+ </div>
+
+
+
+
+
+
+  
+
+
+<!-- ----------------------------------------end offcanvas-------------------------------------- -->
+
+
+
+
+
+        <div class="d-flex">
+    
+        <a href="">
+          <img src="../images/main-img/basket.png" alt="">
+       
+        </a>
+          
+    
+
+        
+    
+         <a href="./login.html"> <button class="btn" id="btn3">Login</button></a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <!---------------------------------------------------- end navbar------------------------------------ -->
+  <!-- start body -->
+  <div class="container">
+    <span>
+        <button class="btn btn-outline-danger btn1 mx-3 text-white">
+            <i class="fa-solid fa-arrow-left"></i>
+        </button>
+    </span>
+    <span id="margin">
+      Have Some Feedback To Share?</h2>
+    </span>
+    <h3 style="text-align: center; color: red;">
+        Well, you’ve come to the right place!
+    </h3>
+    <p style="text-align: center;">
+        Fill in the sections below and we'll be in touch soon, or if you want to contact a 
+    </p>
+    <p style="text-align: center;">
+        specific store, visit our locations page for store contact details. * indicates 
+    </p>
+    <p style="text-align: center;">
+        a required answer
+    </p>
+  </div>
+  <!-- end container -->
+  <div class="container p-5">
+    <div class="row">
+        <div class="col-1">
+
+        </div>
+        <div class="col-md-5" id="gray">
+          <h4 class="text ms-3 mt-3">
+            Contact Details
+            </h4>
+
+            <form class="form" action="">
+         
+         <input placeholder="Username*" class="username input1" type="text">
+         <input placeholder="Email*" class="username input1" type="email">
+         <input  type="number"placeholder="Order Id*" class="username input1" >
+      
+         <select name="" id="" class="username input1">
+            
+            <option value="">Dine in</option>
+            <option value="">Take Away</option>
+            <option value="">Delivery</option>
+
+            <option value="">Pickup</option>
+            <option value="">Driving Thru</option>
+
+
+
+            </select>
+         
+     </form>
+        </div>
+
+
+
+
+
+        <div class="col-5 ms-2" id="gray">
+            <h4 class="text ms-3 mt-3">
+            Contact Details
+            </h4>
+<div class="row">
+    <div class="col-4 me-3">
+        <select name="" id="" class="username input2">
+            <option value="">Select store*</option>
+            <option value="">KFC test store prod</option>
+            <option value="">Shahbaz</option>
+            <option value="">Defence</option>
+
+            <option value="">The Place</option>
+            <option value="">F.B Area</option>
+            <option value="">Itehad</option>
+            <option value="">N. Nazimabad</option>
+            <option value="">Ilchund</option>
+            <option value="">Boart Basin</option>
+
+            <option value="">Site</option>
+            <option value="">Korangi</option>
+
+            <option value="">North Karachi</option>
+            <option value="">N. Nazimabad 2</option>
+            <option value="">shre faisal</option>
+
+            <option value="">Garden</option>
+            <option value="">SaddarAttirum (Mall)</option>
+            <option value="">SMCSH</option>
+            <option value="">Malir cantt</option>
+            <option value="">Mallim</option>
+            <option value="">Bahria KHi</option>
+
+            <option value="">Juahar</option>
+            <option value="">Quetta</option>
+
+            <option value="">PSO shah faisal</option>
+            <option value="">Gulshan Disco</option>
+            <option value="">Gulshan 2</option>
+            <option value="">MACHS</option>
+
+            <option value="">Bahadurabad</option>
+            <option value="">Hyderabad</option>
+            <option value="">sukhar</option>
+            <option value="">Hyderabad 3</option>
+            <option value="">Larkana</option>
+            <option value="">Boulevard Mall</option>
+
+            <option value="">Mirpur khas</option>
+            <option value="">Multan Cantt</option>
+
+            <option value="">Mall of Multan</option>
+            <option value="">Multan Gulgasht</option>
+            <option value="">Okara</option>
+
+            <option value="">Bahawalpur</option>
+            <option value="">Rahim yar khan</option>
+            <option value="">Faisalabad ( d-ground) </option>
+            <option value="">Faisalabad civil line</option>
+            <option value="">Faisalabad Misaq mall</option>
+            <option value="">Faisalabad layllpur Galleria</option>
+            <option value="">Gujjranwala</option>
+            <option value="">Kings mall of Gujjranwala</option>
+            <option value="">Rahwalin of Gujjranwala</option>
+            <option value="">Kala shah kaku</option>
+            <option value="">Sarghoda</option>
+            <option value="">Akbar Chowk</option>
+            <option value="">Sialkot</option>
+            <option value="">sheilhupora</option>
+
+
+            </select>
+        </div>
+        <!-- col 2 end -->
+        <div class="col-4 ms-3">
+<input type="date" class="username input2">
+        </div>
+        <!-- end col 1 -->
+        
+    </div>
+    <select name="" id="" class="username input1">
+            <option value="">FeedBack Type*</option>
+        <option value="">Comments</option>
+        <option value="">suggestions</option>
+        <option value="">Questions</option>
+
+
+
+
+        </select>
+        <textarea id="form17" class="input1 username" rows="4" placeholder="FeedBack Message"></textarea>
+        
+
+        <!-- end here  -->
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-center">
+        <button class="btn-lg btn-danger">
+            submit
+        </button>
+    </div>
+  </div>
+  </body>
+</html>

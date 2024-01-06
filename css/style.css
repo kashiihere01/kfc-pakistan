@@ -633,5 +633,9 @@ margin-left: 18px;
    top: 167%;
   }
   #gray{
-    background-color: #2a2828;
+    background-color:#0e0b0b;
+  }
+  .footerlist li:hover{
+    color: rgb(184, 8, 8);
+  
   }
