@@ -1,0 +1,23 @@
+.mid{
+    height: 350px;
+    width: 1000px;
+    background-color: rgba(68, 62, 62, 0.774);
+}
+.btn1{
+    border-radius:165px ;
+    color: black;
+}
+.text{
+    background-color: gray;
+    width: 400px;
+    height: 80px;
+    border-radius: 62px 92px;
+}
+.text label{
+    font-size: 12px;
+}
+.text input{
+border: none;
+height: 30px;
+background-color: transparent;
+}

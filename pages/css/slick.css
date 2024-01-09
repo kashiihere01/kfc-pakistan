@@ -2,18 +2,16 @@
 .slick-slider
 {
     position: relative;
-    width: 1000px;
-    margin-left: 20px;
+    width: 870px;
     display: block;
     box-sizing: border-box;
-    text-align: center;
+
     -webkit-user-select: none;
        -moz-user-select: none;
         -ms-user-select: none;
             user-select: none;
 margin-left: 60px;
 padding-top: 20px;
-padding: 10px;
     -webkit-touch-callout: none;
     -khtml-user-select: none;
     -ms-touch-action: pan-y;
