@@ -472,6 +472,13 @@ color: white;
   color: red;
   background-color:red ;
 }
+.slider:hover > .btn-fade {
+  opacity: 1;
+  transform: translateY(-5px);
+  background-color: #ffffff;
+  color: red;
+  background-color:red ;
+}
 
 .card3-btn:hover {
   font-weight: 700;
@@ -479,7 +486,28 @@ color: white;
  
   background-color:red ;
 }
-
+.btn-fade:hover {
+  font-weight: 700;
+  letter-spacing: 1px;
+ 
+  background-color:red ;
+}
+.btn-fade{
+  cursor: pointer;
+  width: 100px;
+  padding: 5px;
+  background: var(--main-focus);
+  border: none;
+  border-radius: 5px;
+  margin: 0 auto;
+  transform: translateY(70px);
+  color: var(--bg-color);
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.7px;
+  opacity: 0;
+  transition: all 0.7s;
+}
 .card3:hover > .card-content-wrapper {
   transform: translateY(8px);
   color: red;
