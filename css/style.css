@@ -366,6 +366,115 @@ color: white;
 /* end side bar */
 
 
+.btn7 {
+  position: relative;
+  width: 3em;
+  height: 3em;
+  outline: none;
+  border: none;
+  border-radius: 50%;
+  background-color: white;
+  transition: .4s all;
+}
+
+.btn7 .instagram {
+  margin-top: 0.1em;
+  fill: #cc39a4;
+}
+
+
+.btn7 .tooltiptext1 .account {
+  margin-top: 1em;
+}
+
+.btn7 .tooltiptext1 .username {
+  font-size: 0.7em;
+  margin-top: 1.6em;
+  font-weight: bold;
+}
+
+.btn7:hover .tooltiptext1 {
+  transform: translateY(-1em);
+  visibility: visible;
+}
+
+.btn7:hover {
+  background-color: #cc39a4;
+}
+
+.btn7:hover .instagram {
+  fill: white;
+}
+
+.btn8 {
+  position: relative;
+  width: 3em;
+  height: 3em;
+  outline: none;
+  border: none;
+  border-radius: 50%;
+  background-color: white;
+  transition: .4s all;
+}
+
+
+.btn8.tooltiptext2 .account {
+  margin-top: 1em;
+}
+
+.btn8 .tooltiptext2 .username {
+  font-size: 0.6em;
+  margin-top: 1.6em;
+  font-weight: bold;
+}
+
+.btn8:hover .tooltiptext2 {
+  transform: translateY(-1em);
+  visibility: visible;
+}
+
+.btn8:hover {
+  background-color: #03A9F4;
+}
+
+.btn8:hover .twitter {
+  fill: white;
+}
+
+.btn9 {
+  position: relative;
+  width: 3em;
+  height: 3em;
+  outline: none;
+  border: none;
+  border-radius: 50%;
+  background-color: white;
+  transition: .4s all;
+}
+
+
+.btn3 .tooltiptext3 .account {
+  margin-top: 1em;
+}
+
+.btn3 .tooltiptext3 .username {
+  font-size: 0.7em;
+  margin-top: 1.6em;
+  font-weight: bold;
+}
+
+.btn3:hover .tooltiptext3 {
+  transform: translateY(-1em);
+  visibility: visible;
+}
+
+.btn9:hover {
+  background-color: black;
+}
+
+.btn9:hover .git {
+  fill: white;
+}
 /* staRT cards line 2 */
 .card3{
   width: 250px;
