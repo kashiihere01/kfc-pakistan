@@ -53,12 +53,12 @@ display: flex;
   text-align: center;
   font-size: 20px !important;
   background: #D64B4B;
-  background: -webkit-gradient(linear, left top, left bottom, from(#D64B4B), to(#AB2C2C));
-  background: -webkit-linear-gradient(top, #D64B4B, #AB2C2C);
-  background: -moz-linear-gradient(top, #f70505, #AB2C2C);
-  background: -ms-linear-gradient(top, #D64B4B, #AB2C2C);
-  background: -o-linear-gradient(top, #D64B4B, #AB2C2C);
-  background-image: -ms-linear-gradient(top, #D64B4B 0%, #AB2C2C 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff0000), to(#be0000));
+  background: -webkit-linear-gradient(top, #e40202, #e80b0b);
+  background: -moz-linear-gradient(top, #f70505, #c30000);
+  background: -ms-linear-gradient(top, #ff0a0a, #ff1313);
+  background: -o-linear-gradient(top, #ba0d0d, #f51818);
+  background-image: -ms-linear-gradient(top, #e30909 0%, #eb1a1a 100%);
   -webkit-box-shadow: rgba(0,0,0,0.3) 0 1px 1px;
   -moz-box-shadow: rgba(0,0,0,0.3) 0 1px 1px;
   box-shadow: rgba(0,0,0,0.3) 0 1px 1px;
@@ -94,7 +94,7 @@ display: flex;
 }
 
 .ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
-  border-color: #871616 transparent transparent transparent;
+  border-color: #d90707 transparent transparent transparent;
   position: absolute;
   display: block;
   border-style: solid;
@@ -163,10 +163,54 @@ display: flex;
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
     
         <li class="nav-item">
-          <a class="nav-link" href="#"><button class="btn btn-outline-danger text-white" id="btn">
+          <a class="nav-link" href="#exampleModalToggle" data-bs-toggle="modal"><button class="btn btn-outline-danger text-white" id="btn" class="modal-title" id="exampleModalToggleLabel">
     <span ><img src="../images/main-img/btn-img.png" alt="" height="30px">Delivery</span>
           </button></a>
         </li>
+<!-- --------------------------button modal-------------------------------------------------- -->
+<div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content" id="gray">
+   
+      <div class="modal-body">
+      <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d222212.80604787858!2d71.47722106662586!3d29.514170257747743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x393b97bd11841eb5%3A0xee62cdf8d0cc7ad!2sKFC%20-%20Bahawalpur!5e0!3m2!1sen!2s!4v1704894683809!5m2!1sen!2s" 
+        width="470" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        <div class="d-flex justify-content-center">
+         <button class="btn btn-danger" style="width: 190px;">
+Confirm location
+         </button>
+         <button class="btn btn-danger ms-2" style="width: 190px;">
+        Start your order
+                   </button>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <div id="modale">
+          <span>Already a user?</span><a href="./login.html" class="text-decoration-none text-white" >login</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalToggleLabel2">Modal 2</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Hide this modal and show the first with the button below.
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">Back to first</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- --------------------------button modal  end---------------------------------->
         <li class="nav-item">
           <a class="nav-link" href="#"><button class="btn btn-outline-danger" id="btn2">
     <span ><img src="../images/main-img/btn-img2.png" alt="" height="30px" >Pickup</span>

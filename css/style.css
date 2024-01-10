@@ -451,7 +451,9 @@ color: white;
   background-color: white;
   transition: .4s all;
 }
-
+#modale a:hover{
+color: rgb(195, 21, 21);
+}
 
 .btn3 .tooltiptext3 .account {
   margin-top: 1em;
